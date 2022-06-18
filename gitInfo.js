@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = `Git is a program we use that logs our changes to files so that we can access them again in case we make a boo-boo. A keyword used is version control.`;
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = `GitHub is a cloud-based server to store your work. A programming OneDrive. Better than emailing yourself your files over and over.`;
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+let gitInitDefinition = `Init is short for initialize. This prepares your files and creates folders prepared to recieve (aka save) your files.`;
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+let gitCloneDefinition = `Git Clone is used to copy files in one location/directory and make them somewhere else. Ctrl+C and Ctrl+V.`;
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@
 */
 
 //CODE HERE
+let gitStatusDefinition = `Git Status shows the status of the folder/directory you are in. Status also shows you what changes have been saved.`;
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +58,9 @@
 */
 
 //CODE HERE
+let gitAddDefinition = `Git Add tells our repository to expect to save these files mentioned. We can choose specific files, or everything in a directory.`;
+let gitAddCode = `git add .`;
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,6 +72,8 @@
 */
 
 //CODE HERE
+let gitCommitDefinition = `Git Commit is taking a snapshot of our project at that moment, and 'saving' it to our local repository, in preparation for pushing out.`;
+let gitCommitCode = `git commit -m "initial message"`;
 
 
 //////////////////PROBLEM 8////////////////////
@@ -73,3 +83,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition = `Git Push is most like the actual saving. You upload your updated files, and save them to whatever pathway you've chosen. For our case, we save to GitHub.`;

@@ -4,12 +4,12 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-
+let colorCopy = faveColors.slice(0)
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
-
+colorCopy.push('purple')
 //////////////////PROBLEM 3////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -19,7 +19,7 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-
+let middleNums = numbers.slice(1, -1)
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -34,3 +34,16 @@ const numbers = [1, 2, 3, 4, 5]
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
+
+let answers = [];
+
+for (let i = 0; i < bigOrSmallArray.length; i++) {
+  if (bigOrSmallArray[i] > 100){
+    answers.push(`big`)
+  } else if (bigOrSmallArray[i] <= 100) {
+    answers.push(`small`)
+  } else {
+    alert(`You found an error message. Call this number for a candy bar.\n 123-456-7890`)
+  }
+}
+console.log(answers)
